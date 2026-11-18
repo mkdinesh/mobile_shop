@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MobiGear – Mobile Accessories Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="responsive.css"/>
+</head>
+<body>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span><i class="fas fa-truck"></i> Free shipping on orders over ₹499</span>
+      <span><i class="fas fa-headset"></i> Support: +91 98765 43210</span>
+    </div>
+  </div>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header">
+    <div class="container header-inner">
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <i class="fas fa-mobile-screen-button"></i>
+        <span>MobiGear</span>
+      </a>
+
+      <!-- Search bar -->
+      <div class="search-bar">
+        <input type="text" placeholder="Search cases, chargers, earphones…"/>
+        <button><i class="fas fa-search"></i></button>
+      </div>
+
+      <!-- Header icons -->
+      <div class="header-icons">
+        <a href="#" title="Account"><i class="fas fa-user"></i><span>Account</span></a>
+        <a href="#" title="Wishlist"><i class="fas fa-heart"></i><span>Wishlist</span></a>
+        <a href="#" title="Cart" class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="badge">3</span>
+          <span>Cart</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="container navbar-inner">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#deals">Deals</a></li>
+          <li><a href="#brands">Brands</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO BANNER ===== -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="badge-pill">🔥 New Arrivals 2026</span>
+        <h1>Premium Mobile<br/><span>Accessories</span> For<br/>Every Device</h1>
+        <p>Protect & Power your phone with our curated collection of cases, chargers, earphones & more — delivered fast across India.</p>
+        <div class="hero-btns">
+          <a href="#featured" class="btn btn-primary">Shop Now <i class="fas fa-arrow-right"></i></a>
+          <a href="#categories" class="btn btn-outline">Browse Categories</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>5000+</strong><span>Products</span></div>
+          <div><strong>50K+</strong><span>Happy Customers</span></div>
+          <div><strong>4.9★</strong><span>Rating</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-screen">
+            <div class="phone-notch"></div>
+            <div class="phone-content">
+              <div class="phone-icon"><i class="fas fa-shield-halved"></i></div>
+              <div class="phone-label">MobiGear</div>
+              <div class="phone-sub">Premium Protection</div>
+            </div>
+          </div>
+          <div class="floating-card card1"><i class="fas fa-bolt"></i> Fast Charge</div>
+          <div class="floating-card card2"><i class="fas fa-star"></i> 4.9 Rated</div>
+          <div class="floating-card card3"><i class="fas fa-shield"></i> 1 Yr Warranty</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST BADGES ===== -->
+  <section class="trust-bar">
+    <div class="container trust-inner">
+      <div class="trust-item">
+        <i class="fas fa-truck-fast"></i>
+        <div><strong>Free Delivery</strong><span>On orders above ₹499</span></div>
+      </div>
+      <div class="trust-item">
+        <i class="fas fa-rotate-left"></i>
+        <div><strong>Easy Returns</strong><span>7-day hassle-free returns</span></div>
+      </div>
+      <div class="trust-item">
+        <i class="fas fa-lock"></i>
+        <div><strong>Secure Payment</strong><span>UPI, Cards, Wallets</span></div>
+      </div>
+      <div class="trust-item">
+        <i class="fas fa-award"></i>
+        <div><strong>Genuine Products</strong><span>100% authentic brands</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CATEGORIES ===== -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <h2>Shop by Category</h2>
+        <p>Everything your phone needs in one place</p>
+      </div>
+      <div class="categories-grid">
+        <a href="#" class="category-card cat-1">
+          <div class="cat-icon"><i class="fas fa-mobile-screen"></i></div>
+          <h3>Phone Cases</h3>
+          <span>240+ products</span>
+        </a>
+        <a href="#" class="category-card cat-2">
+          <div class="cat-icon"><i class="fas fa-bolt"></i></div>
+          <h3>Chargers</h3>
+          <span>180+ products</span>
+        </a>
+        <a href="#" class="category-card cat-3">
+          <div class="cat-icon"><i class="fas fa-headphones"></i></div>
+          <h3>Earphones</h3>
+          <span>95+ products</span>
+        </a>
+        <a href="#" class="category-card cat-4">
+          <div class="cat-icon"><i class="fas fa-battery-full"></i></div>
+          <h3>Power Banks</h3>
+          <span>60+ products</span>
+        </a>
+        <a href="#" class="category-card cat-5">
+          <div class="cat-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3>Screen Guards</h3>
+          <span>120+ products</span>
+        </a>
+        <a href="#" class="category-card cat-6">
+          <div class="cat-icon"><i class="fas fa-cable-car"></i></div>
+          <h3>Cables & Hubs</h3>
+          <span>75+ products</span>
+        </a>
+        <a href="#" class="category-card cat-7">
+          <div class="cat-icon"><i class="fas fa-camera"></i></div>
+          <h3>Camera Lenses</h3>
+          <span>40+ products</span>
+        </a>
+        <a href="#" class="category-card cat-8">
+          <div class="cat-icon"><i class="fas fa-ellipsis"></i></div>
+          <h3>All Accessories</h3>
+          <span>View all</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEAL OF THE DAY ===== -->
+  <section class="deal-banner" id="deals">
+    <div class="container deal-inner">
+      <div class="deal-text">
+        <span class="badge-pill deal-badge">⚡ Deal of the Day</span>
+        <h2>Boat Airdopes 141<br/><span>True Wireless Earbuds</span></h2>
+        <p>Enjoy 42-hour playtime, IPX4 water resistance, and instant connectivity. Limited stock available!</p>
+        <div class="deal-price">
+          <span class="price-new">₹1,299</span>
+          <span class="price-old">₹2,999</span>
+          <span class="discount-tag">57% OFF</span>
+        </div>
+        <div class="countdown" id="countdown">
+          <div><span id="hrs">08</span><label>Hours</label></div>
+          <div><span id="min">45</span><label>Mins</label></div>
+          <div><span id="sec">30</span><label>Secs</label></div>
+        </div>
+        <a href="#" class="btn btn-primary">Grab the Deal <i class="fas fa-fire"></i></a>
+      </div>
+      <div class="deal-visual">
+        <div class="deal-product-box">
+          <div class="product-emoji">🎧</div>
+          <div class="product-rings">
+            <div class="ring r1"></div>
+            <div class="ring r2"></div>
+            <div class="ring r3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PRODUCTS ===== -->
+  <section class="section" id="featured">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Products</h2>
+        <p>Handpicked best-sellers and new arrivals</p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="filter-tabs">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="cases">Cases</button>
+        <button class="tab" data-filter="chargers">Chargers</button>
+        <button class="tab" data-filter="audio">Audio</button>
+        <button class="tab" data-filter="power">Power Banks</button>
+      </div>
+
+      <div class="products-grid" id="productsGrid">
+
+        <!-- Product 1 -->
+        <div class="product-card" data-cat="cases">
+          <div class="product-img-wrap">
+            <div class="product-emoji-img">📱</div>
+            <div class="product-badges">
+              <span class="badge-new">New</span>
+            </div>
+            <div class="product-actions">
+              <button title="Wishlist"><i class="fas fa-heart"></i></button>
+              <button title="Quick View"><i class="fas fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Spigen</span>
+            <h4>Armor MagFit Case for iPhone 15 Pro</h4>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+              <span>(128)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price">₹1,499</span>
+              <span class="price-cut">₹2,200</span>
+              <span class="off">32% off</span>
+            </div>
+            <button class="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" data-cat="chargers">
+          <div class="product-img-wrap">
+            <div class="product-emoji-img">⚡</div>
+            <div class="product-badges">
+              <span class="badge-hot">Hot</span>
+            </div>
+            <div class="product-actions">
+              <button title="Wishlist"><i class="fas fa-heart"></i></button>
+              <button title="Quick View"><i class="fas fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Anker</span>
+            <h4>65W GaN Fast Charger – 3 Port USB-C</h4>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(342)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price">₹2,799</span>
+              <span class="price-cut">₹4,500</span>
+              <span class="off">38% off</span>
+            </div>
+            <button class="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" data-cat="audio">
+          <div class="product-img-wrap">
+            <div class="product-emoji-img">🎧</div>
+            <div class="product-badges">
+              <span class="badge-sale">Sale</span>
+            </div>
+            <div class="product-actions">
+              <button title="Wishlist"><i class="fas fa-heart"></i></button>
+              <button title="Quick View"><i class="fas fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">boAt</span>
+            <h4>Rockerz 450 Pro Wireless Headphones</h4>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(891)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price">₹1,199</span>
+              <span class="price-cut">₹2,499</span>
+              <span class="off">52% off</span>
+            </div>
+            <button class="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card" data-cat="power">
+          <div class="product-img-wrap">
+            <div class="product-emoji-img">🔋</div>
+            <div class="product-badges">
+              <span class="badge-new">New</span>
+            </div>
+            <div class="product-actions">
+              <button title="Wishlist"><i class="fas fa-heart"></i></button>
+              <button title="Quick View"><i class="fas fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Mi</span>
+            <h4>20000mAh Power Bank – 33W Fast Charge</h4>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+              <span>(554)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price">₹1,899</span>
+              <span class="price-cut">₹2,999</span>
+              <span class="off">37% off</span>
+            </div>
+            <button class="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card" data-cat="cases">
+          <div class="product-img-wrap">
+            <div class="product-emoji-img">🛡️</div>
+            <div class="product-badges">
+              <span class="badge-hot">Hot</span>
+            </div>
+            <div class="product-actions">
+              <button title="Wishlist"><i class="fas fa-heart"></i></button>
+              <button title="Quick View"><i class="fas fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Ringke</span>
+            <h4>Fusion X Rugged Case – Samsung S24 Ultra</h4>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(217)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price">₹999</span>
+              <span class="price-cut">₹1,799</span>
+              <span class="off">44% off</span>
+            </div>
+            <button class="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card" data-cat="chargers">
+          <div class="product-img-wrap">
+            <div class="product-emoji-img">🔌</div>
+            <div class="product-badges">
+              <span class="badge-sale">Sale</span>
+            </div>
+            <div class="product-actions">
+              <button title="Wishlist"><i class="fas fa-heart"></i></button>
+              <button title="Quick View"><i class="fas fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Baseus</span>
+            <h4>2m Braided USB-C to Lightning Cable</h4>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(412)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price">₹499</span>
+              <span class="price-cut">₹899</span>
+              <span class="off">44% off</span>
+            </div>
+            <button class="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card" data-cat="audio">
+          <div class="product-img-wrap">
+            <div class="product-emoji-img">🎵</div>
+            <div class="product-badges">
+              <span class="badge-new">New</span>
+            </div>
+            <div class="product-actions">
+              <button title="Wishlist"><i class="fas fa-heart"></i></button>
+              <button title="Quick View"><i class="fas fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">JBL</span>
+            <h4>Tune 215 TWS – Active Noise Cancellation</h4>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-stroke"></i>
+              <span>(678)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price">₹2,499</span>
+              <span class="price-cut">₹4,999</span>
+              <span class="off">50% off</span>
+            </div>
+            <button class="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card" data-cat="power">
+          <div class="product-img-wrap">
+            <div class="product-emoji-img">💡</div>
+            <div class="product-badges">
+              <span class="badge-hot">Hot</span>
+            </div>
+            <div class="product-actions">
+              <button title="Wishlist"><i class="fas fa-heart"></i></button>
+              <button title="Quick View"><i class="fas fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-brand">Ambrane</span>
+            <h4>Wireless Qi Charger 15W Slim Pad</h4>
+            <div class="product-rating">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(195)</span>
+            </div>
+            <div class="product-price-row">
+              <span class="price">₹799</span>
+              <span class="price-cut">₹1,499</span>
+              <span class="off">47% off</span>
+            </div>
+            <button class="btn-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-40">
+        <a href="#" class="btn btn-outline-dark">View All Products <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BRAND LOGOS ===== -->
+  <section class="brands-section" id="brands">
+    <div class="container">
+      <div class="section-header">
+        <h2>Trusted Brands We Carry</h2>
+      </div>
+      <div class="brands-row">
+        <div class="brand-logo">🎵 boAt</div>
+        <div class="brand-logo">⚡ Anker</div>
+        <div class="brand-logo">📱 Spigen</div>
+        <div class="brand-logo">🔋 Mi</div>
+        <div class="brand-logo">🎧 JBL</div>
+        <div class="brand-logo">🛡️ Baseus</div>
+        <div class="brand-logo">📡 TP-Link</div>
+        <div class="brand-logo">🔌 Belkin</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Customers Say</h2>
+        <p>Real reviews from real buyers</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Absolutely love the Spigen case I bought! Perfect fit for my iPhone and delivery was super fast. Will shop again!"</p>
+          <div class="reviewer">
+            <div class="avatar">R</div>
+            <div><strong>Rahul Sharma</strong><span>Mumbai</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card featured-review">
+          <div class="stars">★★★★★</div>
+          <p>"Best mobile accessories store online. Got the Anker GaN charger for half the price of local shops. Genuine product!"</p>
+          <div class="reviewer">
+            <div class="avatar av2">P</div>
+            <div><strong>Priya Nair</strong><span>Bangalore</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★☆</div>
+          <p>"Good quality products and packaging. Earphones sound amazing. Slight delay in shipping but overall great experience."</p>
+          <div class="reviewer">
+            <div class="avatar av3">A</div>
+            <div><strong>Arjun Mehta</strong><span>Delhi</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter-section">
+    <div class="container newsletter-inner">
+      <div class="nl-text">
+        <h2>Stay Updated on Deals & New Arrivals</h2>
+        <p>Subscribe to our newsletter and get exclusive offers straight to your inbox.</p>
+      </div>
+      <div class="nl-form">
+        <input type="email" placeholder="Enter your email address"/>
+        <button class="btn btn-primary">Subscribe <i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><i class="fas fa-mobile-screen-button"></i><span>MobiGear</span></div>
+        <p>Your one-stop destination for premium mobile accessories. Genuine products. Fast delivery. Great prices.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">Deals & Offers</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Help & Support</h4>
+        <ul>
+          <li><a href="#">Track My Order</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Warranty Info</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li><i class="fas fa-map-marker-alt"></i> 12, MG Road, Bengaluru - 560001</li>
+          <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+          <li><i class="fas fa-envelope"></i> hello@mobigear.in</li>
+          <li><i class="fas fa-clock"></i> Mon–Sat: 9 AM – 8 PM</li>
+        </ul>
+        <div class="payment-icons">
+          <span>💳</span><span>📱</span><span>🏦</span><span>💰</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 MobiGear. All rights reserved. Built on <strong>Drupal CMS</strong>.</p>
+        <p><a href="#">Privacy Policy</a> · <a href="#">Terms of Use</a> · <a href="#">Sitemap</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></a>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i> Added to cart!
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
